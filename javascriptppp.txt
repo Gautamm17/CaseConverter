@@ -1,0 +1,7 @@
+function upperCase() {
+  const a = document.getElementById('content1').value;
+
+  const b = a.toUpperCase();
+
+  document.getElementById('content2').value = b;
+}
